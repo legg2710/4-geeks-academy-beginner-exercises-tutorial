@@ -2,9 +2,11 @@
 
 function getRandomInt()
 {
-	var randomNumber = Math.random();
+	var randomNumber = Math.floor(Math.random() * 11);
 	return randomNumber;
 }
 
 
-console.log(getRandomInt());
+console.log(getRandomInt(Math.floor(Math.random() * 11)+1));
+
+
